@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "missingno-fix",
+	"version": "${version}",
+	"name": "Missingno Fix",
+	"description": "Fixes missing textures in 26.1!",
+	"authors": [
+		"Sylv <contact@sylv.gay>"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MPL-2.0",
+	"icon": "assets/missingno-fix/icon.png",
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "missingno-fix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25"
+	},
+	"suggests": {
+		"fabric-api": "*"
+	}
+}
