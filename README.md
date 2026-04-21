@@ -11,6 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation("gay.sylv.missingno:missingno-fix:1.0.0")
+    runtimeOnly("gay.sylv.missingno:missingno-fix:1.0.0")
 }
 ```
