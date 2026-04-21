@@ -6,7 +6,8 @@ Fixes missing textures in 26.1!
 ```kts
 repositories {
     maven {
-        url = uri("https://maven.sylv.gay/<repository>")
+        name = "Sylv"
+        url = uri("https://maven.sylv.gay/releases")
     }
 }
 
