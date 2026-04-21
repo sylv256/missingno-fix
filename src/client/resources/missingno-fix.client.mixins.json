@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "gay.sylv.missingno.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"Mixin_ModelManager1"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
